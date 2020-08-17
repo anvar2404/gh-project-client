@@ -37,7 +37,7 @@ const Dashboard = () => {
         user={user}
         setSearch={setSearch}
       />
-      <div className="sm:container mx-auto db-container">
+      <div className="container lg:container mx-auto db-container">
         <Route
           exact
           path="/:username"
