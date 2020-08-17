@@ -1,0 +1,14 @@
+.dashboard{
+  background-color: #a8a8a8;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.db-container{
+  flex: 1 0 auto;
+}
+@media (max-width: 414px) {
+  .db-container{
+    margin: 0;
+  }
+}

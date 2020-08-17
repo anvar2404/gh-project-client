@@ -1,0 +1,17 @@
+.header{
+  background-color: #000000;
+}
+
+@media (max-width: 414px) {
+  .main-title{
+    text-align: center;
+  }
+  .header-input{
+    display: block;
+    margin: 0 auto;
+    margin-right: auto !important;
+  }
+  .gh-repos{
+    text-align: center;
+  }
+}

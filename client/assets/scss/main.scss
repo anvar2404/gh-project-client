@@ -1,0 +1,22 @@
+/* purgecss start ignore */
+@tailwind  base;
+@tailwind  components;
+/* purgecss end ignore */
+
+@tailwind utilities;
+
+
+.main{
+  background: rgba(0, 0, 0, 0.34) url("../images/github.png") no-repeat center;
+  background-blend-mode: darken;
+}
+@media (max-width: 414px) {
+  .main{
+    background:#a8a8a8;
+    .gh-svg{
+      display: block;
+    }
+    .gh-title{
+      display: block;
+    }
+}}

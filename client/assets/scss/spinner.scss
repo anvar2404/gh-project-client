@@ -1,0 +1,35 @@
+
+.spinner{
+  width: 100px;
+  height: 100px;
+  border: 3px solid transparent;
+  border-radius: 50px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+}
+@keyframes spin{
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+.spinner-bg{
+  border-width: 10px;
+}
+.spinner-primary{
+  border-color: #5eaa5e;
+  border-top-color: transparent;
+}
+.spinner-alert{
+  border-color: black;
+  border-top-color: transparent;
+}
+.spinner-dotted{
+  border-style: dotted;
+  border-width: 5px;
+}
+
+
+
+
+
+
