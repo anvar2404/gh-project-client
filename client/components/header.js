@@ -14,7 +14,7 @@ const Header = ({ username, repositoryName, user, setSearch }) => {
         </span>
       </div>
       <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto text-right justify-end font-semibold">
-        {!repositoryName &&(
+        {!repositoryName && (
           <div className="block mx-auto ">
             <input
               className="focus:text-white header-input focus:placeholder-opacity-0 border-b-2 border-white outline-none bg-teal-500 bg-opacity-0 rounded text-center p-3 mr-4 placeholder-white placeholder-opacity-75"
